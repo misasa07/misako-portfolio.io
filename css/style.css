@@ -1,0 +1,108 @@
+body{
+    margin:0px 20px 20px 20px;
+    font-family: 'Shippori Mincho B1', serif;
+    color: #717071;
+    background-color: #F8F9FA;
+
+}
+
+
+#logo-image{
+    
+    margin-left:10px;
+    height:150px;
+}
+
+#navbar{
+    
+    width:100%;
+}
+
+.nav-item{
+    
+    display:flex;
+    margin-right:300px;
+}
+
+#welcome{
+    
+    height: 100vh;
+    background-image: url('https://misako-radzio.s3.us-east-2.amazonaws.com/Portfolio/pexels-olia-danilevich-5088010.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+    
+}
+
+#welcome-msg{
+    
+    height:100%;
+    padding: 10px;
+    display: flex;
+    text-align:center;
+    justify-content: center;
+    align-items:center;
+    color: #fbfbf8;
+    font-size:30px;
+    
+    
+    
+}
+
+@media (max-width:500px){
+    #welcome-msg{
+    font-size:5px;
+  }
+}
+  
+  @media (max-height:500px){
+    #welcome-msg{
+    font-size:5px;
+    }
+}
+
+.btn{
+    background-color: #A7B0AF;
+}
+
+#container{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    
+    
+}
+
+.box{
+    border: 1px solid #717071;
+    width:40%;
+    height:50%;
+    margin-left: 10px;
+    padding:4px;
+}
+
+.box-image{
+    width:100%;
+    display:inline-block;
+    position:relative;
+}
+
+
+.work-link{
+    text-decoration: none;
+    color: #01233f;
+    
+}
+.work-link:hover{
+    text-decoration: underline;
+}
+
+#about.h1{
+    font-weight:100px;
+}
+
+.contact-item{
+    list-style-type:none;
+    
+}
+
