@@ -34,7 +34,7 @@ body{
     
 }
 
-@media (max-height:900px){
+@media (max-height:750px){
     #welcome{height: 50vh;
 }
 }
