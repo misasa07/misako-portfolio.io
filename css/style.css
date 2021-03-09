@@ -34,6 +34,11 @@ body{
     
 }
 
+@media (max-height:700px){
+    #welcome{height: 50vh;
+}
+}
+
 #welcome-msg{
     
     height:100%;
